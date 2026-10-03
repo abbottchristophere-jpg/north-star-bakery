@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>North Star Bakery - Products</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a href="#main-content">Skip to main content</a>
+
+<header>
+<img src="media/bakery-logo_c.png" alt="North Star Bakery logo showing a loaf of bread with a wheat stalk inside" width="120" height="120">
+<p>North Star Bakery</p>
+<nav aria-label="Primary">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="products.html" aria-current="page">Products</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<main id="main-content">
+
+<h1>Our Products</h1>
+
+<section id="favorites-section">
+<h2>Your Favorites</h2>
+<p id="favorites-empty">You haven't saved any favorites yet. Click "Save to Favorites" on any product below.</p>
+<ul id="favorites-list"></ul>
+</section>
+
+<section>
+<h2>Breads</h2>
+<img src="media/bakery-bread_c.jpg"
+alt="A bakery display case filled with rustic loaves of bread, including seeded and flour-dusted varieties"
+width="1200" height="600">
+<p>Country sourdough, whole wheat, rye, and our seeded multigrain.
+Most loaves are $6 to $9.</p>
+<button class="favorite-btn" data-product-id="breads" data-product-name="Breads">Save to Favorites</button>
+</section>
+
+<section>
+<h2>Pastries</h2>
+<p>Croissants, morning buns, scones, and seasonal fruit tarts.
+Most pastries are $3 to $6.</p>
+<button class="favorite-btn" data-product-id="pastries" data-product-name="Pastries">Save to Favorites</button>
+</section>
+
+<section>
+<h2>Cakes</h2>
+<p>Custom celebration cakes and simple everyday cakes.
+Custom cakes start around $35.</p>
+<button class="favorite-btn" data-product-id="cakes" data-product-name="Cakes">Save to Favorites</button>
+</section>
+
+<section>
+<h2>Signature Loaf</h2>
+<figure>
+<img src="media/bakery-signature-loaf_c.jpg"
+alt="A single round sourdough loaf with a scored, flour-dusted crust resting on a checkered cloth"
+width="800" height="800">
+<figcaption>Our Signature Loaf: naturally leavened sourdough, baked
+fresh every morning.</figcaption>
+</figure>
+<button class="favorite-btn" data-product-id="signature-loaf" data-product-name="Signature Loaf">Save to Favorites</button>
+</section>
+
+</main>
+
+<footer>
+<p>&copy; 2026 North Star Bakery</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
